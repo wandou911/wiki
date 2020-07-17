@@ -1,5 +1,7 @@
 ## Hexo
 
+[示例网站](https://blog.zhangruipeng.me)
+[Github](https://github.com/ppoffice/hexo-theme-icarus)
 
 ## jekyll
 
