@@ -13,6 +13,7 @@
 2 [AppStore审核指南](https://github.com/wandou911/wiki/blob/master/移动开发/AppStore审核指南.md)
 3 [iOS多线程](https://github.com/wandou911/wiki/blob/master/移动开发/iOS多线程.md)
 4 [Weex快速上手](https://github.com/wandou911/wiki/blob/master/移动开发/Weex快速上手.md)
+5 [无埋点]（https://github.com/wandou911/wiki/blob/master/移动开发/无埋点.md）
 
 ## git
 
@@ -26,6 +27,11 @@
 
 1 [欧盟蓝卡](https://github.com/wandou911/wiki/blob/master/求职/欧盟蓝卡.md)
 
+## 智能家居
+
+1 [树莓派-智能家居（一）](https://github.com/wandou911/wiki/blob/master/智能家居/树莓派-智能家居（一）.md)
+2 [树莓派-智能家居（二）](https://github.com/wandou911/wiki/blob/master/智能家居/树莓派-智能家居（二）.md)
+3 [树莓派-智能家居（三）](https://github.com/wandou911/wiki/blob/master/智能家居/树莓派-智能家居（三）.md)
 
 ## 其他
 
