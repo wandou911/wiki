@@ -247,7 +247,10 @@ LANG=zh_CN.UTF-8
 LC_ALL=zh_CN.UTF-8
 ```
 
+#### 参考链接
 
-参考链接1：[在CentOS 7上搭建WordPress](https://blog.csdn.net/qq_35723367/article/details/79544001)
-参考链接2：[linux打开80端口及80端口占用解决办法](https://blog.csdn.net/csdn265/article/details/69942482)
-参考链接3：[CentOS 7 yum方式配置LAMP环境](https://www.cnblogs.com/zutbaz/p/4420791.html)
+1：[在CentOS 7上搭建WordPress](https://blog.csdn.net/qq_35723367/article/details/79544001)
+
+2：[linux打开80端口及80端口占用解决办法](https://blog.csdn.net/csdn265/article/details/69942482)
+
+3：[CentOS 7 yum方式配置LAMP环境](https://www.cnblogs.com/zutbaz/p/4420791.html)
