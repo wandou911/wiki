@@ -8,7 +8,7 @@
 
 1 [苹果开发者账号申请2019](https://github.com/wandou911/wiki/blob/master/移动开发/苹果开发者账号申请2019.md) 2 [AppStore审核指南](https://github.com/wandou911/wiki/blob/master/移动开发/AppStore审核指南.md) 3 [iOS多线程](https://github.com/wandou911/wiki/blob/master/移动开发/iOS多线程.md) 4 [Weex快速上手](https://github.com/wandou911/wiki/blob/master/移动开发/Weex快速上手.md) 5 [无埋点](https://github.com/wandou911/wiki/blob/master/移动开发/无埋点.md)
 
-## git
+## git教程
 
 1 [git画屏提交代码步骤](https://github.com/wandou911/wiki/blob/master/git操作/git画屏提交代码步骤.md) 2 [git配置多个SSH-Key](https://github.com/wandou911/wiki/blob/master/git操作/git配置多个SSH-Key.md) 3 [git一台电脑多个账号](https://github.com/wandou911/wiki/blob/master/git操作/git一台电脑多个账号.md) 4 [git分支重命名](https://github.com/wandou911/wiki/blob/master/git操作/git分支重命名.md)
 
