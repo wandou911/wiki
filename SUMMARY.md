@@ -20,6 +20,7 @@
   * [Github-Pages-Hexo](wordpress/github-pages-hexo.md)
   * [Github-Pages主题](wordpress/githubpages-zhu-ti.md)
   * [a](wordpress/a.md)
+  * [Let's Encrypt 入门教程](wordpress/lets-encrypt-https.md)
 * [求职](qiu-zhi/README.md)
   * [我如何拿到了欧盟蓝卡](qiu-zhi/ou-meng-lan-ka.md)
 * [其他](qi-ta/README.md)
