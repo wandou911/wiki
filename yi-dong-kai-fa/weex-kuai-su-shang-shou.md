@@ -1,4 +1,4 @@
-# weex创建一个 App
+# 创建一个 App
 
 > 以下步骤假设您已经了解了 Node.js 和 npm 的基本知识。如果对它们不熟悉，可以访问 [https://docs.npmjs.com/](https://docs.npmjs.com/) 来了解更多关于 npm 的用法。
 
