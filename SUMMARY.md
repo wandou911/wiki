@@ -22,7 +22,7 @@
   * [Github-Pages主题](wordpress/githubpages-zhu-ti.md)
   * [项目小工具](wordpress/project-tool.md)
   * [Let's Encrypt 入门教程](wordpress/lets-encrypt-https.md)
-  * [wordpress使用cloudfare开启https后重定向过多](wordpress/wordpress-cloudfare-https.md)
+  * [wordpress使用cloudflare开启https](wordpress/wordpress-cloudfare-https.md)
 * [求职](qiu-zhi/README.md)
   * [我如何拿到了欧盟蓝卡](qiu-zhi/ou-meng-lan-ka.md)
 * [其他](qi-ta/README.md)
