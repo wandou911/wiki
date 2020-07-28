@@ -1,7 +1,6 @@
 # 目录
 
-## [目录](https://github.com/wandou911/wiki/tree/0588317fd52fda48ea58c24ba6b41fd0f1c3579b/SUMMARY.md)
-
+## [目录](./SUMMARY.md)
 ## WordPress
 
 1 [LNMP安装Wordpress](https://github.com/wandou911/wiki/blob/master/WordPress/LNMP安装Wordpress.md) 2 [LAMP安装Wordpress](https://github.com/wandou911/wiki/blob/master/WordPress/CentOS7搭建WordPress.md) 3 [MySQL8操作步骤](https://github.com/wandou911/wiki/blob/master/WordPress/MySQL8操作步骤.md) 4 [Github-Pages-Hexo](https://github.com/wandou911/wiki/blob/master/WordPress/Github-Pages-Hexo.md)
