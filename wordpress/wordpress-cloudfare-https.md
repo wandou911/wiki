@@ -1,9 +1,14 @@
-# wordpress使用cloudfare开启https后重定向过多
+# wordpress使用cloudflare开启https后重定向过多
 
 使用letsEncrypt为网站申请https证书，就想着开始http自动重定向到https
 参考网上教程都是修改301重定向，
 
 ### 修改 nginx 配置文件
+
+```
+cd /etc/nginx/conf.d/
+vi wordpress_http.conf 
+```
 
 添加 两行
 
@@ -33,7 +38,7 @@ http://iruach.com
 
 显示重定向次数过多 注释掉`return 301 https://$server_name$request_uri;`
 
-一切正常 反复很多次 清除cookie 也不行 后来想起可能是cloudfare引起的，网上一查，果然如此
+一切正常 反复很多次 清除cookie 也不行 后来想起可能是cloudflare引起的，网上一查，果然如此
 
 ## CloudFlare 造成重定向的次数过多的原因
 
