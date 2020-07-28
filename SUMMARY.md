@@ -34,7 +34,7 @@
   * [AppStore审核指南](yi-dong-kai-fa/appstore-shen-he-zhi-nan.md)
   * [iOS多线程](yi-dong-kai-fa/ios-duo-xian-cheng.md)
   * [weex创建一个 App](yi-dong-kai-fa/weex-kuai-su-shang-shou.md)
-  * [ios循环引用](yi-dong-kai-fa/ios-retain-cycle.md)
+  * [iOS使用MLeaksFinder内存检测](yi-dong-kai-fa/ios-mleaksfinder.md)
 * [找工作](job.md)
 * [项目知识点总结](project.md)
 * [程序员经典书单top30](shu-dan.md)
