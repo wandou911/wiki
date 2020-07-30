@@ -168,3 +168,7 @@ TODO：上面还有一个问题，由于取的是数组，可能会有多个，�
 ## 9 引用
 
 https://stackoverflow.com/questions/25510678/how-to-test-skpaymenttransactionstatedeferred/27367749
+
+#### 参考链接
+
+[https://blog.bombox.org/2018-07-14/ios-iap/](https://blog.bombox.org/2018-07-14/ios-iap/)
