@@ -36,6 +36,7 @@
   * [weex创建一个 App](yi-dong-kai-fa/weex-kuai-su-shang-shou.md)
   * [iOS使用MLeaksFinder内存检测](yi-dong-kai-fa/ios-mleaksfinder.md)
   * [iOS内购流程](yi-dong-kai-fa/ios-store-kit.md)
+  * [iOS技术文章](yi-dong-kai-fa/ios-tech-blog.md)
 * [找工作](job.md)
 * [项目知识点总结](project.md)
 * [程序员经典书单top30](shu-dan.md)
