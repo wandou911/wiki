@@ -171,4 +171,6 @@ https://stackoverflow.com/questions/25510678/how-to-test-skpaymenttransactionsta
 
 #### 参考链接
 
-[iOS内购掉单问题](https://blog.bombox.org/2018-07-14/ios-iap/)
+1 [iOS内购掉单问题](https://blog.bombox.org/2018-07-14/ios-iap/)
+
+2 [Keep客户端 In-App Purchase 掉单踩坑指南](http://tech.gotokeep.com/post/2018/12/in-app-purchase/)
