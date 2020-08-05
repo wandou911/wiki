@@ -504,17 +504,17 @@ No.5：GCD的使用
     // 主队列
     dispatch_queue_t queue = dispatch_get_main_queue();
  
-    dispatch_sync(queue, ^{
+    dispatch_async(queue, ^{
         for (int i = 0; i < 3; i++) {
             NSLog(@"主队列异步1   %@",[NSThread currentThread]);
         }
     });
-    dispatch_sync(queue, ^{
+    dispatch_async(queue, ^{
         for (int i = 0; i < 3; i++) {
             NSLog(@"主队列异步2   %@",[NSThread currentThread]);
         }
     });
-    dispatch_sync(queue, ^{
+    dispatch_async(queue, ^{
         for (int i = 0; i < 3; i++) {
             NSLog(@"主队列异步3   %@",[NSThread currentThread]);
         }
