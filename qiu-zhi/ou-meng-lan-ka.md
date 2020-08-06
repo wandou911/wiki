@@ -52,3 +52,7 @@
 
 3 [anabin学位查询](https://anabin.kmk.org/no_cache/filter/hochschulabschluesse.html)
 
+4 [申请德国签证的四个步骤](https://china.diplo.de/cn-zh/service/visa-einreise/nationales-visum/1345434?openAccordionId=item-1345436-1-panel)
+
+5 [申请德国的JSV工作签证是一种怎么样的体验](https://www.zhihu.com/question/31755700)
+
