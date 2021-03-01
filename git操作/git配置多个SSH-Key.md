@@ -8,20 +8,20 @@
 ### 1，生成一个公司用的SSH-Key     
 
 ```
-$ ssh-keygen -t rsa -C "youremail@yourcompany.com” -f ~/.ssh/id-rsa
+$ ssh-keygen -t rsa -C "youremail@yourcompany.com” -f ~/.ssh/id_rsa
 ```
 
-在~/.ssh/目录会生成id-rsa和id-rsa.pub私钥和公钥。 我们将id-rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中。
+在~/.ssh/目录会生成id_rsa和id_rsa.pub私钥和公钥。 我们将id_rsa.pub中的内容粘帖到公司gitlab服务器的SSH-key的配置中。
 
 
 
 ### 2，生成一个github用的SSH-Key
 
 ```
-$ ssh-keygen -t rsa -C "youremail@your.com” -f ~/.ssh/github-rsa
+$ ssh-keygen -t rsa -C "youremail@your.com” -f ~/.ssh/github_rsa
 ```
 
-在~/.ssh/目录会生成github-rsa和github-rsa.pub私钥和公钥。 我们将github-rsa.pub中的内容粘帖到github服务器的SSH-key的配置中。
+在~/.ssh/目录会生成github_rsa和github_rsa.pub私钥和公钥。 我们将github_rsa.pub中的内容粘帖到github服务器的SSH-key的配置中。
 
 
 
