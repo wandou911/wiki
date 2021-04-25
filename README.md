@@ -17,6 +17,10 @@
 
 1 [欧盟蓝卡](https://github.com/wandou911/wiki/blob/master/求职/欧盟蓝卡.md)
 
+2 [德国学历认证全攻略在这里](https://zhuanlan.zhihu.com/p/88115166)
+
+3 [疫情中北京使馆德国蓝卡签证申请](https://www.douban.com/group/topic/165629962/)
+
 ## 智能家居
 
 1 [树莓派-智能家居（一）](https://github.com/wandou911/wiki/blob/master/智能家居/树莓派-智能家居（一）.md) 2 [树莓派-智能家居（二）](https://github.com/wandou911/wiki/blob/master/智能家居/树莓派-智能家居（二）.md) 3 [树莓派-智能家居（三）](https://github.com/wandou911/wiki/blob/master/智能家居/树莓派-智能家居（三）.md)
