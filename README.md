@@ -23,7 +23,7 @@
 
 4 [日本IT人才相互认证](https://www.ipa.go.jp/jinzai/asia/kaigai/china.html)
 
-5 [纪录片 含泪活着](https://movie.douban.com/subject/2342568/)
+5 [日本纪录片-丁尚彪 含泪活着](https://movie.douban.com/subject/2342568/)
 
 ## 智能家居
 
