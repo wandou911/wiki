@@ -21,6 +21,10 @@
 
 3 [疫情中北京使馆德国蓝卡签证申请](https://www.douban.com/group/topic/165629962/)
 
+4 [日本IT人才相互认证](https://www.ipa.go.jp/jinzai/asia/kaigai/china.html)
+
+5 [纪录片 含泪活着]
+
 ## 智能家居
 
 1 [树莓派-智能家居（一）](https://github.com/wandou911/wiki/blob/master/智能家居/树莓派-智能家居（一）.md) 2 [树莓派-智能家居（二）](https://github.com/wandou911/wiki/blob/master/智能家居/树莓派-智能家居（二）.md) 3 [树莓派-智能家居（三）](https://github.com/wandou911/wiki/blob/master/智能家居/树莓派-智能家居（三）.md)
