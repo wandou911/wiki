@@ -25,6 +25,8 @@
 
 5 [日本纪录片-丁尚彪 含泪活着](https://movie.douban.com/subject/2342568/)
 
+6 [加拿大留学](https://github.com/wandou911/wiki/blob/master/求职/加拿大留学.md)
+
 ## 智能家居
 
 1 [树莓派-智能家居（一）](https://github.com/wandou911/wiki/blob/master/智能家居/树莓派-智能家居（一）.md) 2 [树莓派-智能家居（二）](https://github.com/wandou911/wiki/blob/master/智能家居/树莓派-智能家居（二）.md) 3 [树莓派-智能家居（三）](https://github.com/wandou911/wiki/blob/master/智能家居/树莓派-智能家居（三）.md)
