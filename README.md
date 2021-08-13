@@ -31,6 +31,17 @@
 
 8 [9 年老码农的跳槽“真经”](http://www.cocoachina.com:8080/programmer/20190919/53605.html)
 
+9 [How to Pass the Engineering Interview in 2021](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
+
+
+## 技术面试准备
+
+* 算法/coding xcode实操/build an app xcode实操/app debug 产品协作/产品sense architecture/OO design
+
+* 系统设计 YouTube and search “{FAANG company} design interview questions.
+
+* Behavior Question
+
 
 
 ## 简历书写/投递
