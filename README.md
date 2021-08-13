@@ -45,5 +45,5 @@
 
 ## 其他
 
-1 [定位找人](https://github.com/wandou911/wiki/blob/master/其他/定位找人.md)
+1 [定位](https://github.com/wandou911/wiki/blob/master/其他/定位找人.md)
 
