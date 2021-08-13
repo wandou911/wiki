@@ -33,6 +33,7 @@
 
 9 [How to Pass the Engineering Interview in 2021](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
 
+10 [Coding Interview University](https://github.com/jwasham/coding-interview-university)
 
 ## 技术面试准备
 
