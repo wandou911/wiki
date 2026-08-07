@@ -1,0 +1,144 @@
+这是一个很常见的工作流，也是我比较推荐的方案。
+
+整体思路是：
+
+```text
+上游官方仓库（Public）
+        │
+        ▼
+你的 Fork（Public，仅用于同步）
+        │
+        ▼
+本地仓库
+        │
+        ▼
+你的 Private 仓库（开发）
+```
+
+这样既能方便地同步官方更新，又不会公开你的开发内容。
+
+### 第一步：保留 Fork
+
+例如：
+
+* 官方仓库：`https://github.com/org/project`
+* 你的 Fork：`https://github.com/yourname/project`
+
+Fork 主要用于和官方保持关联。
+
+### 第二步：创建一个新的 Private 仓库
+
+例如：
+
+`https://github.com/yourname/project-private`
+
+这个仓库不需要 Fork，直接新建即可。
+
+### 第三步：配置多个远程仓库
+
+查看当前远程：
+
+```bash
+git remote -v
+```
+
+假设当前是：
+
+```text
+origin    https://github.com/yourname/project.git
+```
+
+再添加私有仓库：
+
+```bash
+git remote add private https://github.com/yourname/project-private.git
+```
+
+查看：
+
+```bash
+git remote -v
+```
+
+应该类似：
+
+```text
+origin     https://github.com/yourname/project.git
+private    https://github.com/yourname/project-private.git
+```
+
+如果还没有配置官方仓库作为 `upstream`，再添加：
+
+```bash
+git remote add upstream https://github.com/org/project.git
+```
+
+最终会有三个远程：
+
+```text
+upstream   官方仓库
+origin     你的 Fork（Public）
+private    你的 Private 仓库
+```
+
+### 第四步：同步官方更新
+
+获取官方最新代码：
+
+```bash
+git fetch upstream
+```
+
+切换到主分支：
+
+```bash
+git checkout main
+```
+
+合并官方更新：
+
+```bash
+git merge upstream/main
+```
+
+或者使用：
+
+```bash
+git rebase upstream/main
+```
+
+### 第五步：推送到自己的 Private 仓库
+
+开发完成后，只推送到私有仓库：
+
+```bash
+git push private main
+```
+
+如果你不希望公开开发进度，可以**不要**执行：
+
+```bash
+git push origin main
+```
+
+这样，你的 Fork 保持干净，私有仓库保存你的全部开发工作。
+
+### 第六步：需要提交贡献时
+
+如果想向官方提交 Pull Request，可以：
+
+1. 从最新的官方代码创建一个新的分支。
+2. 将需要贡献的提交挑选（例如使用 `git cherry-pick`）到这个分支。
+3. 推送到 `origin`（你的 Fork）。
+4. 从 Fork 向官方仓库发起 Pull Request。
+
+这样可以避免把私有开发中的其他提交一并公开。
+
+---
+
+这种方式的优点是：
+
+* 能持续同步官方仓库的最新更新。
+* 自己的开发代码保存在私有仓库，不会公开。
+* 需要向官方贡献代码时，流程也比较顺畅。
+* 官方仓库、公开 Fork 和私有开发仓库各自职责清晰，便于长期维护。
