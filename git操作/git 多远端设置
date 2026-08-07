@@ -1,0 +1,152 @@
+## 
+可以，而且**这是很合理的做法**。如果你的目标是：
+
+* `private` 仓库：日常主要开发，保持私有
+* `fork` 仓库：Public，用来向上游项目提交 PR
+* 官方仓库：作为上游同步来源
+
+我甚至更推荐把 **Private 仓库设为 `origin`**，把你的 Public Fork 设为 `fork` 或 `github`，这样不容易误操作把私有开发代码推到 Public Fork。
+
+例如：
+
+```text
+upstream  → 官方 Public 仓库
+fork      → 你的 Public Fork
+origin    → 你的 Private 仓库
+```
+
+### 配置方式
+
+假设现在：
+
+```bash
+git remote -v
+```
+
+显示：
+
+```text
+origin  https://github.com/你的用户名/project.git
+```
+
+这里的 `origin` 是你的 Public Fork。
+
+先把它改名：
+
+```bash
+git remote rename origin fork
+```
+
+然后把 Private 仓库设置成 `origin`：
+
+```bash
+git remote add origin https://github.com/你的用户名/project-private.git
+```
+
+最后添加官方仓库：
+
+```bash
+git remote add upstream https://github.com/官方组织/project.git
+```
+
+检查：
+
+```bash
+git remote -v
+```
+
+最终应该是：
+
+```text
+origin    https://github.com/你的用户名/project-private.git
+fork      https://github.com/你的用户名/project.git
+upstream  https://github.com/官方组织/project.git
+```
+
+### 平时开发
+
+你就在 Private 仓库上正常开发：
+
+```bash
+git checkout -b my-feature
+```
+
+开发：
+
+```bash
+git add .
+git commit -m "add my feature"
+```
+
+推送：
+
+```bash
+git push -u origin my-feature
+```
+
+这里的 `origin` 是 **Private**，所以你的开发分支不会公开。
+
+### 同步官方代码
+
+从官方仓库获取更新：
+
+```bash
+git fetch upstream
+```
+
+例如同步 `main`：
+
+```bash
+git checkout main
+git merge upstream/main
+```
+
+然后推送到 Private：
+
+```bash
+git push origin main
+```
+
+### 需要给官方提 PR 时
+
+这时候才把**需要公开的分支**推到你的 Public Fork：
+
+```bash
+git push -u fork my-feature
+```
+
+然后在 GitHub 上：
+
+```text
+你的 Public Fork
+      │
+      │ Pull Request
+      ▼
+官方仓库
+```
+
+这样非常干净：
+
+```text
+                 ┌──→ upstream（官方 Public）
+                 │
+本地 Git ────────┤
+                 │
+                 ├──→ origin（你的 Private） ← 日常开发
+                 │
+                 └──→ fork（你的 Public Fork）← 只发布要 PR 的代码
+```
+
+**一个重要建议：**既然 `origin` 是 Private，平时可以养成只执行：
+
+```bash
+git push origin <branch>
+```
+
+的习惯。只有确定某个分支需要公开、准备 PR 时才：
+
+```bash
+git push fork <branch>
+```
+
+这样可以大幅降低误把私有代码推到 Public Fork 的风险。
