@@ -2,50 +2,6 @@
 
 新建一个Private 仓库用于开发
 
-简化版:
-
-
-整体思路是：
-
-```text
-上游官方仓库（Public）
-        │
-        ▼
-你的 Fork（Public，仅用于同步）
-        │
-        ▼
-本地仓库
-        │
-        ▼
-你的 Private 仓库（开发）
-```
-
-## 简化说明:
-
-* 官方仓库：`https://github.com/org/project`
-* 你的 Fork：`https://github.com/yourname/project`
-* 新的 Private 仓库 `https://github.com/yourname/project-private`
-
-### 图示：
-
-```text
-                 ┌──→ upstream（官方 Public）
-                 │
-本地 Git ────────┤
-                 │
-                 ├──→ origin（你的 Private） ← 日常开发
-                 │
-                 └──→ fork（你的 Public Fork）← 只发布要 PR 的代码
-```
-### 命令
-
-
-```bash
-git clone `https://github.com/yourname/project
-
-git remote -v
-```
-
 
 ## 详细说明
 
