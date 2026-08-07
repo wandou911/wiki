@@ -17,9 +17,12 @@ origin    → 你的 Private 仓库
 
 ### 配置方式
 
+github新建Private仓库 project-private
+
 假设现在：
 
 ```bash
+git clone https://github.com/你的用户名/project.git
 git remote -v
 ```
 
