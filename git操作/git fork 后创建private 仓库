@@ -1,4 +1,9 @@
-这是一个很常见的工作流，也是我比较推荐的方案。
+## 源仓库是 Public，那么你的 Fork 仓库一般不能直接改成 Private。如何解决?
+
+新建一个Private 仓库用于开发
+
+简化版:
+
 
 整体思路是：
 
@@ -14,6 +19,35 @@
         ▼
 你的 Private 仓库（开发）
 ```
+
+## 简化说明:
+
+* 官方仓库：`https://github.com/org/project`
+* 你的 Fork：`https://github.com/yourname/project`
+* 新的 Private 仓库 `https://github.com/yourname/project-private`
+
+### 图示：
+
+```text
+                 ┌──→ upstream（官方 Public）
+                 │
+本地 Git ────────┤
+                 │
+                 ├──→ origin（你的 Private） ← 日常开发
+                 │
+                 └──→ fork（你的 Public Fork）← 只发布要 PR 的代码
+```
+### 命令
+
+
+```bash
+git clone `https://github.com/yourname/project
+
+git remote -v
+```
+
+
+## 详细说明
 
 这样既能方便地同步官方更新，又不会公开你的开发内容。
 
@@ -142,3 +176,6 @@ git push origin main
 * 自己的开发代码保存在私有仓库，不会公开。
 * 需要向官方贡献代码时，流程也比较顺畅。
 * 官方仓库、公开 Fork 和私有开发仓库各自职责清晰，便于长期维护。
+
+
+
