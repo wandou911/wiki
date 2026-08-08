@@ -66,13 +66,15 @@ fork      https://github.com/你的用户名/project.git
 upstream  https://github.com/官方组织/project.git
 ```
 
+
 ### 平时开发
 
 你就在 Private 仓库上正常开发：
 
 ```bash
-git checkout -b my-feature
+git checkout -b dev
 ```
+
 
 开发：
 
@@ -81,10 +83,23 @@ git add .
 git commit -m "add my feature"
 ```
 
-推送：
+第一次推送：
 
 ```bash
-git push -u origin my-feature
+git push -u origin dev
+```
+
+后面推送
+```
+git push
+```
+
+说明:-u 不代表“推送到上游官方仓库”，它只是设置当前本地分支的默认远程跟踪分支。
+
+```
+git push -u origin dev
+//等于
+git branch --set-upstream-to=origin/dev dev
 ```
 
 这里的 `origin` 是 **Private**，所以你的开发分支不会公开。
@@ -115,7 +130,9 @@ git push origin main
 这时候才把**需要公开的分支**推到你的 Public Fork：
 
 ```bash
-git push -u fork my-feature
+git checkout dev
+git checkout -b fix-login
+git push -u fork fix-login
 ```
 
 然后在 GitHub 上：
@@ -153,3 +170,13 @@ git push fork <branch>
 ```
 
 这样可以大幅降低误把私有代码推到 Public Fork 的风险。
+
+| 操作              | 命令                              |
+| --------------- | ------------------------------- |
+| 日常开发            | `git push`                      |
+| 默认推到 Private    | `dev` upstream 设置为 `origin/dev` |
+| 推到 Public Fork  | `git push fork 分支名`             |
+| 从官方获取更新         | `git fetch upstream`            |
+| 第一次推 Private 分支 | `git push -u origin dev`        |
+| 第一次推 PR 分支      | `git push -u fork fix-login`    |
+
